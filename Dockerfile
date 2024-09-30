@@ -10,8 +10,5 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Install any necessary Python packages
-RUN pip install --no-cache-dir random
-
 # Command to run your Python Tkinter app
 CMD ["python", "fun_app.py"]

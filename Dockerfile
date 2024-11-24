@@ -11,4 +11,4 @@ WORKDIR /app
 COPY . /app
 
 # Command to run your Python Tkinter app
-CMD ["python", "fun_app.py"]
+CMD ["python", "app.py"]
